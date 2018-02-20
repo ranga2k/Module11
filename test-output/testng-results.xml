@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="130284" started-at="2018-02-20T17:36:03Z" finished-at="2018-02-20T17:38:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="130284" started-at="2018-02-20T17:36:03Z" finished-at="2018-02-20T17:38:14Z">
+      <class name="LaunchBrowsers">
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:LaunchBrowsers@17579e0f]" name="launch" duration-ms="9480" started-at="2018-02-20T17:36:03Z" data-provider="getData" finished-at="2018-02-20T17:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:LaunchBrowsers@17579e0f]" name="launch" duration-ms="56040" started-at="2018-02-20T17:36:13Z" data-provider="getData" finished-at="2018-02-20T17:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:LaunchBrowsers@17579e0f]" name="launch" duration-ms="64734" started-at="2018-02-20T17:37:09Z" data-provider="getData" finished-at="2018-02-20T17:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- LaunchBrowsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
