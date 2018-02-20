@@ -37,7 +37,7 @@ public class LaunchBrowsers {
 		}
 		
 		// single script
-		driver.get("http://yahoo.com");
+		driver.get("http://rediff.com");
 		// commands
 		driver.quit(); // end selenium session + close all browsers in the current session
 		//driver.close();// close browser - current focus
